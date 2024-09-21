@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- google font start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- google font end -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        montserrat: ["montserrat", 'sans-serif']
+                    },
+                    backgroundImage: {
+                        'hero-pattern': "url('/img/image.png')",
+                    },
+                    colors: {
+                        'text-color': '#3936C4',
+                        'bg-color': '#FFFCF5',
+                        'p-color': '#545360',
+                        'footer-color': '#385F96',
+                        'bg-button-color': '#FFF8F0',
+                        'text-button-color': '#FF8100',
+                    }
+                },
+
+            },
+        };
+    </script>
+</head>
+
+<body class="font-montserrat">
+    <!-- header section start  -->
+    <header>
+        <div class="bg-bg-color">
+            <div class="max-w-[1170px] m-auto px-4 md:flex py-7 justify-between items-center flex">
+                <img src="img/Logo.png" alt="logo" data-aos="fade-down">
+                <nav class="md:flex gap-5 hidden">
+                    <a href="#" class="text-text-color font-semibold">Home</a>
+                    <a href="#" class="text-p-color font-normal">Features</a>
+                    <a href="#" class="text-p-color font-normal">Post A Job</a>
+                    <a href="#" class="text-p-color font-normal">Hire Talents</a>
+                </nav>
+                <div class="md:flex gap-4 items-center hidden">
+                    <a href="#" class="font-semibold ">Log In</a>
+                    <a href="#" class="font-semibold py-3 px-8 border rounded-md">Sign Up</a>
+                </div>
+                <div class="flex items-center gap-4 space-y-2 md:hidden">
+                    <span class="text-xl text-text-color font-medium">Manu</span>
+                    <div class="hamburger flex flex-col gap-1 ">
+                        <span class="inline-block h-[2px] w-4 bg-text-color"></span>
+                        <span class="inline-block h-[2px] w-4 bg-text-color"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header section end  -->
+    <main>
+        <!-- hero section start  -->
+        <section>
+            <div class="bg-bg-color">
+                <div class="max-w-[1170px] m-auto px-4 py-28 md:flex items-center flex flex-col gap-9 md:flex-row">
+                    <div class="hero-left md:w-2/4">
+                        <h1 class="text-4xl md:text-7xl font-bold">Find the right job for you</h1>
+                        <p class="text-p-color text-[18px] py-10">Search and find your dream job is now easier than
+                            ever. Just browse a job and apply if you need to.</p>
+                        <button href="#" class="py-4 px-8 bg-text-color text-white rounded-lg font-semibold">Get Started</button>
+                    </div>
+                    <div class="hero-right md:w-2/4">
+                        <img src="img/Illustrations.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- hero section end  -->
+        <!-- associated section start  -->
+        <section class="py-20">
+            <div class="text-center text-3xl font-bold">
+                <h1>Associated with</h1>
+            </div>
+            <div class="max-w-[1170px] px-4 m-auto py-9">
+                <div class="md:flex justify-between md:flex-row flex flex-col gap-12 items-center">
+                    <img src="img/1.png" alt="">
+                    <img src="img/2.png" alt="">
+                    <img src="img/3.png" alt="">
+                    <img src="img/4.png" alt="">
+                    <img src="img/5.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- associated section end  -->
+        <!-- work section start  -->
+        <section>
+            <div class="text-center">
+                <h1 class="text-4xl font-semibold">How it works</h1>
+                <p class="max-w-[500px] inline-block py-4 px-4 text-p-color">Search and find your dream job is now
+                    easier than ever. Just browse a job and apply if you need to.</p>
+            </div>
+            <div class="max-w-[1170px] px-4 m-auto py-20 md:flex gap-8 flex flex-col md:flex-row">
+                <div class="py-7 px-9 border rounded-xl md:flex md:flex-col gap-4 flex flex-col">
+                    <img src="img/Icon.png" alt="icon" class="w-[88px]">
+                    <h1 class="text-2xl font-semibold">Make a Profile</h1>
+                    <p class="text-p-color">Make job profile then Build and boost your great profile with proper way.
+                        It’s so easy to get started.</p>
+                    <a href="#" class="font-semibold">Learn More</a>
+                </div>
+                <div class="py-7 px-9 border rounded-xl md:flex md:flex-col gap-4 flex flex-col">
+                    <img src="img/Icon-one.png" alt="icon" class="w-[88px]">
+                    <h1 class="text-2xl font-semibold">Upload CV</h1>
+                    <p class="text-p-color">Make job profile then Build and boost your great profile with proper way.
+                        It’s so easy to get started.</p>
+                    <a href="#" class="font-semibold">Learn More</a>
+                </div>
+                <div class="py-7 px-9 border rounded-xl md:flex md:flex-col gap-4 flex flex-col">
+                    <img src="img/Icon-tow.png" alt="icon" class="w-[88px]">
+                    <h1 class="text-2xl font-semibold">Schedule Interview</h1>
+                    <p class="text-p-color">Make job profile then Build and boost your great profile with proper way.
+                        It’s so easy to get started.</p>
+                    <a href="#" class="font-semibold">Learn More</a>
+                </div>
+            </div>
+        </section>
+        <!-- work section end  -->
+        <!-- job section start  -->
+        <section>
+            <div>
+                <div class="max-w-[1170px] m-auto px-4 py-28 md:flex items-center flex flex-col gap-9 md:flex-row">
+                    <div class="job-left md:w-2/4">
+                        <h1 class="text-4xl md:text-4xl font-bold">Find your dream job super fast ever.</h1>
+                        <p class="text-p-color text-[18px] py-5">We are here to help jobseekers connect wuth the
+                            organizer and companies. We are providing the best opportunies to professionals people.</p>
+                        <div class="md:flex gap-2 items-center py-2 flex">
+                            <i class="fa-solid fa-check" style="color: #8A5CD7;"></i>
+                            <p class="font-medium">Connect easily with organizers</p>
+                        </div>
+                        <div class="md:flex gap-2 items-center py-2 flex">
+                            <i class="fa-solid fa-check" style="color: #8A5CD7;"></i>
+                            <p class="font-medium">Get a job comfortably</p>
+                        </div>
+                        <div class="md:flex gap-2 items-center py-2 flex">
+                            <i class="fa-solid fa-check" style="color: #8A5CD7;"></i>
+                            <p class="font-medium">24/7 online support</p>
+                        </div>
+                        <button href="#" class="py-4 px-8 bg-text-color text-white rounded-lg my-5 font-semibold">Get Started</button>
+                    </div>
+                    <div class="job-right md:w-2/4">
+                        <img src="img/Mask-group.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- job section end  -->
+        <!-- featured section start  -->
+        <section class="py-28">
+            <div class="text-center">
+                <h1 class="text-4xl font-semibold">Latest featured jobs</h1>
+                <p class="max-w-[500px] inline-block py-4 px-4 text-p-color">Search and find your dream job is now
+                    easier than ever. Just browse a job and apply if you need to.</p>
+            </div>
+            <div class="max-w-[1170px] px-4 m-auto md:flex gap-10 flex flex-col md:flex-row py-10">
+                <div class="py-11 px-5 border rounded-2xl gap-8 md:flex md:flex-col flex flex-col">
+                    <div>
+                        <h1 class="text-2xl font-semibold">Senior UX/UI Developer with strong Designer skills</h1>
+                    </div>
+                    <div class="md:flex items-center py-2 gap-2 flex">
+                        <i class="fa-solid fa-location-dot" style="color: #000;"></i>
+                        <p class="font-medium">Oslo, Norway</p>
+                        <a href="#"
+                            class="bg-bg-button-color text-text-button-color py-1 px-2 mx-3 md:mx-8 rounded-md">Full
+                            Time</a>
+                    </div>
+                    <div class="md:flex items-center gap-5 flex">
+                        <img src="img/app.png" alt="">
+                        <div class="">
+                            <h3 class="font-semibold">Slack</h3>
+                            <p class="text-p-color">5 days ago</p>
+                        </div>
+                        <a href="#" class="bg-black text-white py-1 px-5 rounded-md m-auto ">Apply</a>
+                    </div>
+                </div>
+                <div class="py-11 px-5 border rounded-2xl gap-8 md:flex md:flex-col flex flex-col">
+                    <div>
+                        <h1 class="text-2xl font-semibold">Senior UX/UI Developer with strong Designer skills</h1>
+                    </div>
+                    <div class="md:flex items-center py-2 gap-2 flex">
+                        <i class="fa-solid fa-location-dot" style="color: #000;"></i>
+                        <p class="font-medium">Oslo, Norway</p>
+                        <a href="#"
+                            class="bg-bg-button-color text-text-button-color py-1 px-2 mx-3 md:mx-8 rounded-md">Full
+                            Time</a>
+                    </div>
+                    <div class="md:flex items-center gap-5 flex">
+                        <img src="img/app.png" alt="">
+                        <div class="">
+                            <h3 class="font-semibold">Slack</h3>
+                            <p class="text-p-color">5 days ago</p>
+                        </div>
+                        <a href="#" class="bg-black text-white py-1 px-5 rounded-md m-auto ">Apply</a>
+                    </div>
+                </div>
+                <div class="py-11 px-5 border rounded-2xl gap-8 md:flex md:flex-col flex flex-col">
+                    <div>
+                        <h1 class="text-2xl font-semibold">Senior UX/UI Developer with strong Designer skills</h1>
+                    </div>
+                    <div class="md:flex items-center py-2 gap-2 flex">
+                        <i class="fa-solid fa-location-dot" style="color: #000;"></i>
+                        <p class="font-medium">Oslo, Norway</p>
+                        <a href="#"
+                            class="bg-bg-button-color text-text-button-color py-1 px-2 mx-3 md:mx-8 rounded-md">Full
+                            Time</a>
+                    </div>
+                    <div class="md:flex items-center gap-5 flex">
+                        <img src="img/app.png" alt="">
+                        <div class="">
+                            <h3 class="font-semibold">Slack</h3>
+                            <p class="text-p-color">5 days ago</p>
+                        </div>
+                        <a href="#" class="bg-black text-white py-1 px-5 rounded-md m-auto ">Apply</a>
+                    </div>
+                </div>
+            </div>
+            <div class="max-w-[1170px] px-4 m-auto md:flex gap-10 flex flex-col md:flex-row">
+                <div class="py-11 px-5 border rounded-2xl gap-8 md:flex md:flex-col flex flex-col">
+                    <div>
+                        <h1 class="text-2xl font-semibold">Senior UX/UI Developer with strong Designer skills</h1>
+                    </div>
+                    <div class="md:flex items-center py-2 gap-2 flex">
+                        <i class="fa-solid fa-location-dot" style="color: #000;"></i>
+                        <p class="font-medium">Oslo, Norway</p>
+                        <a href="#"
+                            class="bg-bg-button-color text-text-button-color py-1 px-2 mx-3 md:mx-8 rounded-md">Full
+                            Time</a>
+                    </div>
+                    <div class="md:flex items-center gap-5 flex">
+                        <img src="img/app.png" alt="">
+                        <div class="">
+                            <h3 class="font-semibold">Slack</h3>
+                            <p class="text-p-color">5 days ago</p>
+                        </div>
+                        <a href="#" class="bg-black text-white py-1 px-5 rounded-md m-auto ">Apply</a>
+                    </div>
+                </div>
+                <div class="py-11 px-5 border rounded-2xl gap-8 md:flex md:flex-col flex flex-col">
+                    <div>
+                        <h1 class="text-2xl font-semibold">Senior UX/UI Developer with strong Designer skills</h1>
+                    </div>
+                    <div class="md:flex items-center py-2 gap-2 flex">
+                        <i class="fa-solid fa-location-dot" style="color: #000;"></i>
+                        <p class="font-medium">Oslo, Norway</p>
+                        <a href="#"
+                            class="bg-bg-button-color text-text-button-color py-1 px-2 mx-3 md:mx-8 rounded-md">Full
+                            Time</a>
+                    </div>
+                    <div class="md:flex items-center gap-5 flex">
+                        <img src="img/app.png" alt="">
+                        <div class="">
+                            <h3 class="font-semibold">Slack</h3>
+                            <p class="text-p-color">5 days ago</p>
+                        </div>
+                        <a href="#" class="bg-black text-white py-1 px-5 rounded-md m-auto ">Apply</a>
+                    </div>
+                </div>
+                <div class="py-11 px-5 border rounded-2xl gap-8 md:flex md:flex-col flex flex-col">
+                    <div>
+                        <h1 class="text-2xl font-semibold">Senior UX/UI Developer with strong Designer skills</h1>
+                    </div>
+                    <div class="md:flex items-center py-2 gap-2 flex">
+                        <i class="fa-solid fa-location-dot" style="color: #000;"></i>
+                        <p class="font-medium">Oslo, Norway</p>
+                        <a href="#"
+                            class="bg-bg-button-color text-text-button-color py-1 px-2 mx-3 md:mx-8 rounded-md">Full
+                            Time</a>
+                    </div>
+                    <div class="md:flex items-center gap-5 flex">
+                        <img src="img/app.png" alt="">
+                        <div class="">
+                            <h3 class="font-semibold">Slack</h3>
+                            <p class="text-p-color">5 days ago</p>
+                        </div>
+                        <a href="#" class="bg-black text-white py-1 px-5 rounded-md m-auto ">Apply</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center py-16">
+                <a href="#" class="bg-black text-white py-4 px-5 rounded-md m-auto md:inline-block inline-block font-semibold">Show More</a>
+            </div>              
+        </section>
+        <!-- featured section end  -->
+        <!-- testimonial section start  -->
+         <section>
+            <div class="max-w-[1170px] px-4 m-auto md:flex md:justify-between md:flex-row md:items-center flex flex-col gap-9">
+                <div class="testimonial-left md:flex md:flex-col gap-5 flex flex-col">
+                    <h1 class="font-semibold text-4xl">What job seekar says</h1>
+                    <p class="text-p-color md:w-[500px]">Search and find your dream job is now easier than ever. Just browse a job and apply if you need to.</p>
+                </div>
+                <div class="testimonial-right">
+                    <button href="#" class="py-4 px-8 bg-text-color text-white rounded-lg font-semibold">Get Started</button>
+                </div>
+            </div>
+            <div class="max-w-[1170px] m-auto px-4 py-20 md:flex gap-8 flex flex-col md:flex-row">
+                <div class="border py-11 px-6 rounded-xl md:flex md:flex-col gap-5 flex flex-col">
+                    <img src="img/testimonial-img.png" alt="" class="w-14">
+                    <img src="img/rattimg.png" alt="" class="w-32">
+                    <p class="text-p-color">“This is the great and best platform to finding the job. I got a very goog job by this platform. I am very grateful to them for making such a amazing platform”</p>
+                    <div>
+                    <h3 class="text-[18px] font-semibold">Sarah Taylor</h3>
+                    <p class="text-p-color">UI/UX designer at Slack</p>
+                    </div>
+                </div>
+                <div class="border py-11 px-6 rounded-xl md:flex md:flex-col gap-5 flex flex-col">
+                    <img src="img/testimonial-img.png" alt="" class="w-14">
+                    <img src="img/rattimg.png" alt="" class="w-32">
+                    <p class="text-p-color">“This is the great and best platform to finding the job. I got a very goog job by this platform. I am very grateful to them for making such a amazing platform”</p>
+                    <div>
+                    <h3 class="text-[18px] font-semibold">Sarah Taylor</h3>
+                    <p class="text-p-color">UI/UX designer at Slack</p>
+                    </div>
+                </div>
+                <div class="border py-11 px-6 rounded-xl md:flex md:flex-col gap-5 flex flex-col">
+                    <img src="img/testimonial-img.png" alt="" class="w-14">
+                    <img src="img/rattimg.png" alt="" class="w-32">
+                    <p class="text-p-color">“This is the great and best platform to finding the job. I got a very goog job by this platform. I am very grateful to them for making such a amazing platform”</p>
+                    <div>
+                    <h3 class="text-[18px] font-semibold">Sarah Taylor</h3>
+                    <p class="text-p-color">UI/UX designer at Slack</p>
+                    </div>
+                </div>
+            </div>
+         </section>
+        <!-- testimonial section end  -->
+        <!-- resume section start  -->
+         <section class="px-4">
+            <div class="max-w-[1170px] px-4 m-auto bg-text-color py-20 my-28 rounded-xl lg:flex lg:items-center flex flex-col gap-6 lg:flex-row items-start">
+                <div class="resume-left lg:px-12 px-4 lg:w-3/4">
+                    <h1 class="text-white lg:text-4xl text-3xl font-semibold ">Start your career by upload your awesome resume</h1>
+                </div>
+                <div class="resume-right lg:w-1/4">
+                    <button href="#" class="py-4 px-4 mx-4 bg-white text-text-color rounded-lg font-semibold">Upload Your Resume</button>
+
+                </div>
+            </div>
+         </section>
+        <!-- resume section end  -->
+    </main>
+    <!-- footer section start  -->
+     <footer>
+        <div class="bg-[url('/img/bg.png')] bg-cover bg-no-repeat py-[180px] ">
+            <div class="max-w-[1170px] m-auto px-4 md:flex md:justify-between flex flex-col gap-6 md:flex-row">
+                <div class="footer-left md:w-[500px]">
+                    <h2 class="text-white text-4xl font-semibold leading-normal">You’re now seeing jobs from <span class="underline">Denmark</span></h2>
+                </div>
+                <div class="footer-right">
+                    <button href="#" class="py-4 px-8 bg-text-color text-white rounded-lg my-5 font-semibold"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i> Search Startup & Job</button>
+                </div>
+            </div>
+            <div class="border border-slate-600 max-w-[1135px] md:m-auto md:my-9 my-9 md:px-4 mx-5"></div>
+            <div class="max-w-[1170px] m-auto px-4 md:flex md:justify-end">
+                <div class="footer-nav-left"></div>
+                <div class="footer-nav-righr">
+                    <nav class="flex gap-2">
+                        <a href="#" class="text-p-color font-normal">Home</a>
+                        <a href="#" class="text-p-color font-normal">Features</a>
+                        <a href="#" class="text-p-color font-normal">Post A Job</a>
+                        <a href="#" class="text-p-color font-normal">Hire Talents</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+     </footer>
+    <!-- footer section end  -->
+    <script>
+        AOS.init({
+            duration: 1000,
+        });
+      </script>
+</body>
+</html>

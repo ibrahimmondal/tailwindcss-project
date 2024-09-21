@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class-12</title>
+    <link rel="stylesheet" href="Class-12/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Libre+Baskerville:wght@400;700&display=swap" />
+    <!-- script -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {},
+                    fontFamily: {
+                        inter: ["Inter", "sans-serif"],
+                        libre: ["Libre Baskerville", "serif"],
+                    },
+                    boxShadow: {
+                        "box": "8px 8px 0px 0px rgba(237,216,161)",
+                        "box-hover": "-8px -8px 0px 0px rgba(237,216,161)",
+                    },
+                },
+            },
+        };
+    </script>
+</head>
+<body class="container max-w-[1220px] mx-auto">
+    <!-- Header Section -->
+    <header class="my-5 font-inter font-medium">
+        <div class="flex items-center justify-between md:text-xl">
+            <div class="flex items-center justify-between gap-4">
+                <img src="img/logo.jpg" alt="logo" class="size-8" />
+                <h2>MOCHA</h2>
+            </div>
+            <nav class="space-x-8 font-medium md:text-[16px] hidden md:flex">
+                <a href="#">About</a>
+                <a href="#">Menu</a>
+                <a href="#">Cartering</a>
+                <a class="boxShadow" href="#">Contact</a>
+            </nav>
+            <button
+                class="bg-[#634C00] py-3 px-4 text-white rounded-lg shadow-box transition hover:shadow-box-hover ">Book
+                a table</button>
+            <div class="hamburger flex flex-col space-y-2 md:hidden">
+                <span class="inline-block h-[2px] w-4 bg-black"></span>
+                <span class="inline-block h-[2px] w-4 bg-black"></span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Hero Section -->
+        <section>
+            <div class="hero-left">
+                <button class="bg-[#634C00] py-3 px-4 text-white rounded-lg shadow-box transition hover:shadow-box-hover ">MELBOURNE CAFE</button>
+            </div>
+            <div class="hero-right"></div>
+        </section>
+    </main>
+</body>
+</html>

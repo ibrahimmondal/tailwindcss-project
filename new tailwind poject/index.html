@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<head>
+    <!-- css animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+                colors:{
+        'buttan-bg':'#878cff',
+        'text-bols':'#21243D',
+        'text-color':'#777777',
+        'bg-color':'#878CFF1C',
+        'text-fucher-cloer':'#21243D',
+        'footer-color':'#000000',
+          }  
+            },
+          },
+        };
+      </script>
+</head>
+<body>
+    <!-- header section start -->
+     <header>
+        <div class="max-w-7xl mx-auto flex items-center justify-between py-4 px-4">
+            <img src="img/John..png" alt="logo" data-aos="flip-left">
+            <nav class="gap-5 hidden md:flex font-medium" data-aos="zoom-in">
+                <a href="#">About</a>
+                <a href="#">Works</a>
+                <a href="#">Blog</a>
+            </nav>
+            <a href="#" class="bg-black px-7 py-3 text-white rounded-md hidden md:inline-block" data-aos="zoom-in">Hire Me</a>
+            <div class="flex items-center gap-4 space-y-2 md:hidden">
+                <span class="text-xl">Manu</span>
+                <div class="hamburger flex flex-col gap-1 ">
+                    <span class="inline-block h-[2px] w-4 bg-black"></span>
+                    <span class="inline-block h-[2px] w-4 bg-black"></span>
+                </div>
+            </div>
+        </div>
+     </header>
+    <!-- header section end -->
+    <!-- hero section start -->
+     <section class="">
+        <div class="h-[700px] max-w-[450px] mx-auto text-center flex flex-col gap-9 px-4 flex-none md:items-center items-center">
+            <img src="img/Ellipse 1.png" alt="" class="w-52 h-52" data-aos="fade-up">
+            <h1 data-aos="zoom-in" class="text-[46px] font-medium">Hi, I am <span class="text-buttan-bg">John. Creative</span> Developer</h1>
+            <p data-aos="zoom-out" class="text-text-color">How do you know you are a web developer? A: You spend more time debugging than developing. 😂</p>
+            <a href="#" data-aos="fade-up-left" class="py-2 px-5 bg-buttan-bg inline font-medium text-white rounded-lg md:inline-block">Download Resume</a>
+        </div>
+     </section>
+    <!-- hero section end -->
+    <!-- about section start -->
+     <section>
+        <div  class="bg-bg-color">
+        <div class="max-w-[1000px] mx-auto md:flex md:gap-5 px-4 py-24">
+        <div class="about-right md:w-2/4 md:justify-center md:flex">
+            <img src="img/man.png" alt="" class="" data-aos="fade-up">
+        </div>
+        <div class="about-left md:w-2/4 flex flex-col md:justify-center md:items-start items-start gap-5" data-aos="fade-down">
+            <h1 class="text-[46px] font-medium">Delighted to <span class="text-buttan-bg"> meet</span> you</h1>
+            <p class="text-text-color">I'm a John product designer living in San Francisco, CA. UX is central to everything I do. I love to work on meaningful projects with inspiring, creative people that challenge the status quo.</p> 
+            <a href="#" class="py-2 px-5 bg-buttan-bg inline-block font-medium text-white rounded-lg">Learn More</a>
+        </div>
+    </div>
+</div>
+     </section>
+    <!-- about section end -->
+    <!-- work section start -->
+     <section>
+        <div class="py-20 text-center">
+            <h1 class="text-[46px] font-medium" data-aos="zoom-in"><span class="text-buttan-bg"> My</span> Work</h1>
+        </div>
+        <div class="max-w-[1000px] mx-auto flex items-center flex-col md:flex md:flex-row gap-7">
+            <div class="work-1">
+                <img src="img/image 1 (1).png" alt=""  data-aos="fade-right">
+                <p class="px-9 py-5" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">Making a design system from scratch</p>
+                <a href="#" class="px-9 text-buttan-bg underline">Learn More</a>
+            </div>
+            <div class="work-2">
+                <img src="img/image 2 (1).png" alt="" data-aos="zoom-out">
+                <p class="px-9 py-5" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">Making a design system from scratch</p>
+                <a href="#" class="px-9 text-buttan-bg underline">Learn More</a>
+            </div>
+            <div class="work-3">
+                <img src="img/image 3.png" alt="" data-aos="fade-left">
+                <p class="px-9 py-5" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">Making a design system from scratch</p>
+                <a href="#" class="px-9 text-buttan-bg underline">Learn More</a>
+            </div> 
+        </div>
+     </section>
+    <!-- work section end -->
+    <!-- featured section start -->
+     <section class="mx-4">
+        <div class="max-w-[950px] mx-auto text-start py-[100px] px-4">
+            <h2 class="text-buttan-bg text-4xl font-bold" data-aos="fade-left">Insights</h2>
+        </div>
+        <div class="max-w-[950px] mx-auto flex flex-col md:flex md:flex-row px-4 gap-5 mb-14">
+            <div class="featured-1 py-[30px] px-[30px] border rounded-md" data-aos="fade-right">
+                <h2 class="font-bold text-text-color text-[16px] py-3">FEATURED</h2>
+                <h1 class="text-text-fucher-cloer font-bold text-[28px]">Making a design system from scratch</h1>
+                <p class="text-text-color py-2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <a href="#" class="text-buttan-bg underline">Learn More</a>
+            </div>
+            <div class="featured-1 py-[30px] px-[30px] border rounded-md" data-aos="fade-left">
+                <h2 class="font-bold text-text-color text-[16px] py-3">FEATURED</h2>
+                <h1 class="text-text-fucher-cloer font-bold text-[28px]">Making a design system from scratch</h1>
+                <p class="text-text-color py-2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <a href="#" class="text-buttan-bg underline">Learn More</a>
+            </div>
+        </div>
+     </section>
+    <!-- featured section end -->
+    <!-- footer section start -->
+     <footer>
+        <div class="bg-footer-color">
+            <div class="max-w-[950px] mx-auto">
+                <div class="flex md:flex md:items-center gap-4 md:justify-center justify-center pt-[40px]"  data-aos="fade-up">
+                <img src="img/fb.png" alt="">
+                <img src="img/insta.png" alt="">
+                <img src="img/Group.png" alt="">
+                <img src="img/Linkedin.png" alt="">
+                </div>
+            </div>
+            <div class="pb-8 pt-4">
+                <h3 class="text-white text-center">Copyright ©2020 All rights reserved</h3>
+            </div>
+        </div>
+     </footer>
+    <!-- footer section end -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+        });
+      </script>
+</body>
+</html>

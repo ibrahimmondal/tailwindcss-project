@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- google font start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <!-- google font end -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        inter: ["inter", 'sans-serif']
+                    },
+                    backgroundImage: {
+                        'hero-pattern': "url('/img/image.png')",
+                    },
+                    boxShadow: {
+                        'box': '8px 8px 0px 0px rgba(237, 216, 161)',
+                        'box-hover': '-8px -8px 0px 0px rgba(237, 216, 161)',
+                    },
+                    colors: {
+                        'text-color': '#182327',
+                        'bg-color': '#80E2FF',
+                        'p-color': '#5D696D',
+                        'footer-color': '#FFF7E3',
+                        'store-bg-color': '#FFD36A',
+                    }
+
+                },
+
+            },
+        };
+    </script>
+</head>
+
+<body class="font-inter">
+    <!-- header section start  -->
+    <header>
+        <div class="max-w-[1305px] m-auto px-4">
+            <div class="lg::flex lg:justify-between py-8 lg:items-center flex justify-between">
+                <img src="img/Logo.png" alt="logo">
+                <nav class="lg:flex gap-8 hidden">
+                    <a href="#" class="text-text-color">Products</a>
+                    <a href="#" class="text-text-color">About Us</a>
+                    <a href="#" class="text-text-color">Video</a>
+                    <a href="#" class="text-text-color">Recipes</a>
+                    <a href="#" class="text-text-color">Where to Buy</a>
+                </nav>
+                <div class="hidden lg:inline-block border py-3 px-3 rounded-lg ">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #b0b9c9;"></i>
+                    <input type="text" placeholder="Search collection, item or user" class="lg:w-[250px]">
+                </div>
+                <div class="lg:flex gap-3 hidden">
+                    <img src="img/Group-17812.png" alt="">
+                    <button href="#" class="py-3 px-6 bg-black text-white inline-block rounded-xl">Sign Up</button>
+                </div>
+                <div class="flex items-center gap-4 space-y-2 lg:hidden">
+                    <span class="text-xl text-text-color">Manu</span>
+                    <div class="hamburger flex flex-col gap-1 ">
+                        <span class="inline-block h-[2px] w-4 bg-text-color"></span>
+                        <span class="inline-block h-[2px] w-4 bg-text-color"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header section end  -->
+    <main>
+        <!-- hero section start  -->
+        <section class="bg-[url('img/bg-9.png')] bg-no-repeat bg-center bg-cover">
+            <div class="max-w-[1305px] m-auto px-4 py-6">
+                <div class="md:flex md:items-center flex md:flex-row items-start gap-5 flex-col-reverse">
+                    <div
+                        class="hero-left md:w-2/4 flex flex-col gap-5 md:flex md:flex-col flex-none md:items-start items-start">
+                        <h1 class="md:text-7xl text-5xl font-bold text-text-color">Feel the Best Taste With Lays Crisps
+                        </h1>
+                        <p class="text-[20px] font-normal text-p-color">Feel the best and awesome taste with Lays
+                            Crisps. There has been various kind of Crisps you can eat and feel the wonder taste of this
+                            awesome product.</p>
+                        <button href="#" class="py-3 px-6 bg-black text-white rounded-xl md:inline-block">Sign
+                            Up</button>
+                    </div>
+                    <div class="hero-right md:max-w-2/4">
+                        <img src="img/Grou.png" alt="" class="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- hero section end  -->
+        <!-- chips section start  -->
+        <section>
+            <div class="max-w-[1305px] m-auto px-4 py-28">
+                <h1 class="md:text-[42px] font-bold md:w-[570px] leading-10 text-2xl text-text-color">We Provide the
+                    Tasty and best Chips for you!</h1>
+            </div>
+            <div class="md:flex md:justify-end hidden">
+                <img src="img/image-20.png" alt="">
+            </div>
+            <div class="text-end md:hidden max-w-[75px]">
+                <img src="img/image-20.png" alt="">
+            </div>
+            <div
+                class="max-w-[1305px] m-auto px-4 md:flex md:justify-between flex flex-col md:flex-row gap-24 md:items-center pb-36">
+                <div
+                    class="chips-left bg-[url('img/Shapes.png')] md:w-2/4 bg-no-repeat bg-center bg-cover pb-6 rounded-xl">
+                    <img src="img/Group 17840.png" alt="" class="mt-[-70px]">
+                </div>
+                <div class="chips-left md:w-2/4 flex flex-col gap-3">
+                    <h1 class="text-text-color text-2xl font-bold">LAY'S® BLT Flavored</h1>
+                    <img src="img/Group 17813.png" alt="" class="max-w-[117px]">
+                    <h2 class="font-normal text-p-color">Price</h2>
+                    <h1 class="text-text-color font-bold">$3.93</h1>
+                    <p class="text-p-color">It all starts with farm-grown potatoes, cooked and seasoned to perfection.
+                        Then we add the sweet taste of honey and the spicy kick of BBQ sauce. So every LAY'S potato chip
+                        is perfectly crispy and delicious. Happiness in Every Bite.</p>
+                    <div>
+                        <button href="#" class="py-3 px-6 bg-black text-white rounded-xl md:inline-block">Sign
+                            Up</button>
+                        <a href="#">See More ></a>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- chips section end  -->
+        <!-- product section start  -->
+        <section>
+            <div class="md:flex md:text-center md:flex-col gap-3 flex flex-col">
+                <h1 class="md:text-4xl md:font-bold text-2xl font-bold text-center">Find Best Taste Here</h1>
+                <p class="text-[18px] font-normal text-center px-4 md:w-[570px] m-auto pb-[140px]">Feel the best and
+                    awesome taste with Lays Crisps. There has been various kind of Crisps you can eat and feel</p>
+            </div>
+            <div class="max-w-[1305px] m-auto px-4 md:flex md:justify-between gap-4 pb-60">
+                <div class="w-[350px] md:h-[330px]">
+                    <div class="bg-[url('img/Group-17836.png')] bg-no-repeat bg-center md:flex md:flex-col gap-10 pr-4">
+                        <img src="img/Images-1.png" alt="" class="mt-[-50px] w-[300px] m-auto">
+                        <div class="flex justify-end">
+                            <img src="img/Cart.png" alt="" class="">
+                        </div>
+                    </div>
+                    <div class="md:flex gap-2 md:flex-col">
+                        <h1 class="text-text-color font-bold pt-2">$3.93</h1>
+                        <p class="text-p-color">LAY'S® Yogurt & Herb Flavored</p>
+                        <img src="img/Group 17813.png" alt="" class="max-w-[117px]">
+                    </div>
+                </div>
+                <div class="w-[350px] md:h-[330px]">
+                    <div class="bg-[url('img/Group-17836.png')] bg-no-repeat bg-center md:flex md:flex-col gap-10">
+                        <img src="img/Images-1.png" alt="" class="mt-[-50px] w-[300px] m-auto">
+                        <div class="flex justify-end">
+                            <img src="img/Cart.png" alt="" class="">
+                        </div>
+                    </div>
+                    <div class="md:flex gap-2 md:flex-col">
+                        <h1 class="text-text-color font-bold pt-2">$3.93</h1>
+                        <p class="text-p-color">LAY'S® Yogurt & Herb Flavored</p>
+                        <img src="img/Group 17813.png" alt="" class="max-w-[117px]">
+                    </div>
+                </div>
+                <div class="w-[350px] md:h-[330px]">
+                    <div class="bg-[url('img/Group-17836.png')] bg-no-repeat bg-center md:flex md:flex-col gap-10">
+                        <img src="img/Images-1.png" alt="" class="mt-[-50px] w-[300px] m-auto">
+                        <div class="flex justify-end">
+                            <img src="img/Cart.png" alt="" class="">
+                        </div>
+                    </div>
+                    <div class="md:flex gap-2 md:flex-col">
+                        <h1 class="text-text-color font-bold pt-2">$3.93</h1>
+                        <p class="text-p-color">LAY'S® Yogurt & Herb Flavored</p>
+                        <img src="img/Group 17813.png" alt="" class="max-w-[117px]">
+                    </div>
+                </div>
+            </div>
+            <div class="max-w-[1305px] m-auto px-4 md:flex md:justify-between gap-4 mb-20 pb-32">
+                <div class="w-[350px] md:h-[330px]">
+                    <div class="bg-[url('img/Group-17836.png')] bg-no-repeat bg-center md:flex md:flex-col gap-10">
+                        <img src="img/Images-1.png" alt="" class="mt-[-50px] w-[300px] m-auto">
+                        <div class="flex justify-end">
+                            <img src="img/Cart.png" alt="" class="">
+                        </div>
+                    </div>
+                    <div class="md:flex gap-2 md:flex-col">
+                        <h1 class="text-text-color font-bold pt-2">$3.93</h1>
+                        <p class="text-p-color">LAY'S® Yogurt & Herb Flavored</p>
+                        <img src="img/Group 17813.png" alt="" class="max-w-[117px]">
+                    </div>
+                </div>
+                <div class="w-[350px] md:h-[330px]">
+                    <div class="bg-[url('img/Group-17836.png')] bg-no-repeat bg-center md:flex md:flex-col gap-10">
+                        <img src="img/Images-1.png" alt="" class="mt-[-50px] w-[300px] m-auto">
+                        <div class="flex justify-end">
+                            <img src="img/Cart.png" alt="" class="">
+                        </div>
+                    </div>
+                    <div class="md:flex gap-2 md:flex-col">
+                        <h1 class="text-text-color font-bold pt-2">$3.93</h1>
+                        <p class="text-p-color">LAY'S® Yogurt & Herb Flavored</p>
+                        <img src="img/Group 17813.png" alt="" class="max-w-[117px]">
+                    </div>
+                </div>
+                <div class="w-[350px] md:h-[330px]">
+                    <div class="bg-[url('img/Group-17836.png')] bg-no-repeat bg-center md:flex md:flex-col gap-10">
+                        <img src="img/Images-1.png" alt="" class="mt-[-50px] w-[300px] m-auto">
+                        <div class="flex justify-end">
+                            <img src="img/Cart.png" alt="" class="">
+                        </div>
+                    </div>
+                    <div class="md:flex gap-2 md:flex-col">
+                        <h1 class="text-text-color font-bold pt-2">$3.93</h1>
+                        <p class="text-p-color">LAY'S® Yogurt & Herb Flavored</p>
+                        <img src="img/Group 17813.png" alt="" class="max-w-[117px]">
+                    </div>
+                </div>
+
+            </div>
+            <div class="max-w-[1305px] m-auto px-4 text-center">
+                <button href="#" class="py-3 px-6 bg-black text-white rounded-xl md:inline-block">Sign Up</button>
+            </div>
+        </section>
+        <!-- product section end  -->
+        <!-- Popular section start  -->
+        <section class="pb-[202px]">
+            <div class="max-w-[1305px] m-auto px-4 pt-52">
+                <div class="text-center text-3xl font-bold md:pl-96 pb-32">
+                    <h2>Our Popular Crisps</h2>
+                </div>
+                <div class="flex flex-col md:flex md:flex-row gap-8">
+                    <div
+                        class="popular-left rounded-xl bg-[url('img/Group-17843.png')] bg-cover bg-no-repeat flex justify-center bg-center md:w-2/4 pb-16">
+                        <img src="img/Images-92.png" alt="" class="mt-[-70px]">
+                    </div>
+                    <div
+                        class="popular-left bg-[url('img/Group-17844.png')] bg-no-repeat flex justify-center bg-center md:w-2/4 pb-16 mt-20">
+                        
+                        <img src="img/Image-32.png" alt="" class="mt-[-70px]">
+                    </div>
+                </div>
+            </div>
+            <div class="max-w-[1305px] m-auto px-4 hidden">
+                <div class="md:flex gap-96">
+                    <div>
+                        <h3 class="py-6">LAY’S® Wavy Ondulees Salt & Vinegar</h3>
+                        <div class="flex gap-2">
+                            <img src="img/Group-124.png" alt="">
+                            <p>Play Video</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="py-6">LAY’S® Wavy Ondulees Salt & Vinegar</h3>
+                        <div class="flex gap-2">
+                            <img src="img/Group-124.png" alt="">
+                            <p>Play Video</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </section>
+        <!-- Popular section end  -->
+        <!-- customer section start  -->
+         <section>
+            <div class="bg-bg-color pb-24 pt-32">
+                <div class="max-w-[1305px] m-auto px-4 md:flex md:items-center gap-32 md:justify-between flex flex-col-reverse md:flex-row">
+                    <div class="customer-left max-w-2/4">
+                        <h1 class="text-4xl font-bold text-text-color mb-6">What’s Our Customer Say</h1>
+                        <p class="text-[22px] text-text-color font-medium md:max-w-[570px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <div class="border border-sky-400 my-7"></div>
+                        <h2 class="text-2xl font-semibold text-text-color">Annara Veirmont</h2>
+                        <p class="text-text-color">23 years of Age</p>
+                    </div>
+                    <div class="customer-right bg-[url('img/Group-17845.png')] bg-no-repeat bg-cover md:justify-center md:flex max-w-2/4 flex justify-center">
+                              <img src="img/cheerful-young-sports-man-posing-showing-thumbs-up-gesture-transformed-.png" alt="" class="mt-[-70px]">
+                    </div>
+                </div>
+            </div>
+         </section>
+        <!-- customer section end  -->
+        <!-- store section start  -->
+         <section>
+            <div class="bg-[url('img/Group-17846.png')] py-24">
+                <div class="max-w-[1305px] m-auto px-4 md:flex md:flex-col gap-8 md:items-center md:justify-center flex flex-col items-center">
+                    <h1 class="text-[42px] font-bold text-text-color text-center">Find a Crisps Store Near You</h1>
+                    <p class="text-center text-text-color md:max-w-[470px]">Feel the best and awesome taste with Lays Crisps. There has been various kind of Crisps you can eat and feel.</p>
+                    <button href="#" class="py-3 px-6 bg-black text-white inline-block rounded-xl">Sign Up</button>
+                </div>
+            </div>
+         </section>
+        <!-- store section end  -->
+        <!-- footer section start  -->
+         <section class="bg-footer-color">
+            <div class="max-w-[1305px] m-auto px-4 md:flex py-24 md:justify-center md:items-center gap-20 flex flex-col-reverse md:flex-row">
+                <div class="footer-left md:flex md:flex-col gap-6">
+                    <img src="img/Logo.png" alt="" class="w-[40px]">
+                    <nav class="md:flex md:flex-row gap-5 flex flex-col">
+                        <a href="#" class="text-text-color">Products</a>
+                        <a href="#" class="text-text-color">About Us</a>
+                        <a href="#" class="text-text-color">Video</a>
+                        <a href="#" class="text-text-color">Recipes</a>
+                        <a href="#" class="text-text-color">Where to Buy</a>
+                    </nav>
+                    <p class="text-2xl font-bold">Follow us</p>
+                    <div class="md:flex gap-4 flex">
+                        <img src="img/Group-431.png" alt="">
+                        <img src="img/Group-431.png" alt="">
+                        <img src="img/Group-431.png" alt="">
+                    </div>
+                    <p class="text-[14px] md:text-[16px]">Copyright © 2022 UIHUT all rights reserved.</p>
+                </div>
+                <div class="footer-right">
+                    <img src="img/Images-(3).png" alt="">
+                </div>
+            </div>
+         </section>
+        <!-- footer section end  -->
+    </main>
+</body>
+
+</html>

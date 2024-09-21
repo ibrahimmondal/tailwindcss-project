@@ -1,0 +1,200 @@
+<!doctype html>
+<html>
+<head>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- google font start-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!-- google font end-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                fontFamily: {
+                  poppins: ["Poppins", 'sans-serif']
+                },
+                backgroundImage: {
+                    'hero-pattern': "url('/img/image.png')",
+                },
+                boxShadow: {
+                    'box': '8px 8px 0px 0px rgba(255, 255, 255)',
+                    'boxone': '0 0 1rem rgba(0, 238, 255)',
+                    'box-hover': '-8px -8px 0px 0px rgba(255, 255, 255)',
+                },
+                colors: {
+                    'text-color': '#00EEFF',
+                    'primery-color': '#1F242D',
+                    'secondary-color': '#323946',
+                }
+
+            },
+
+        },
+    };
+</script>
+</head>
+<body class="font-poppins">
+  <!-- header section start  -->
+  <header class="bg-primery-color py-7">
+    <div class="max-w-[1170px] m-auto px-4 flex justify-between items-center flex-col md:flex md:flex-row gap-5">
+       <div>
+        <h1 class="text-white font-medium text-2xl" data-aos="fade-right">Ibrahim mondal</h1>
+       </div>
+       <div>
+         <nav class="text-white flex gap-6 font-light text-[12px] md:text-[15px]" data-aos="fade-left">
+         <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#service">servics</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact Us</a>
+        </nav>
+       </div>
+    </div>
+  </header>
+  <!-- header section end  -->
+   <main>
+  <!-- hero section start  -->
+   <section class="bg-primery-color" id="home">
+    <div class="max-w-[1170px] m-auto px-4 md:flex md:justify-between md:items-center py-20">
+      <div class="hero-left">
+        <p class="text-white text-3xl font-semibold">HELLO, MY NAME IS</p>
+        <p class="text-white md:text-6xl font-semibold uppercase text-3xl py-4">Ibrahim Mondal</p>
+       <p class="text-white text-3xl">And I'm a <span class="text-text-color font-semibold">Frontend Developer</span></p>
+       <p class="text-white max-w-[570px] py-4">I’m a Front End Web developer who is passionate about making error-free websites with 100% client satisfaction.</p>
+       <div class="flex gap-3 pb-3">
+       <i class="fa-brands fa-facebook  text-text-color border p-[9px] border-cyan-400 rounded-full my-5 shadow hover:shadow-boxone hover:bg-text-color hover:text-primery-color transition ease-out duration-500 "></i>
+       <i class="fa-brands fa-facebook  text-text-color border p-[9px] border-cyan-400 rounded-full my-5 shadow hover:shadow-boxone hover:bg-text-color hover:text-primery-color transition ease-out duration-500 "></i>
+       <i class="fa-brands fa-facebook  text-text-color border p-[9px] border-cyan-400 rounded-full my-5 shadow hover:shadow-boxone hover:bg-text-color hover:text-primery-color transition ease-out duration-500 "></i>
+      </div>
+       <button class="py-2 px-6 bg-text-color block rounded-lg shadow-boxone hover:bg-primery-color transition ease-out duration-500 hover:text-text-color font-medium">About us</button>
+      </div>
+      <div class="hero-right max-md:hidden">
+         <img src="img/Ibrahimmondal-removebg-preview.png" alt="user">
+      </div>
+    </div>
+   </section>
+  <!-- hero section end  -->
+  <!-- about section start  -->
+  <section class="bg-secondary-color" id="about">
+    <div class="max-w-[1170px] m-auto px-4 md:flex md:justify-between md:items-center gap-12 flex flex-col md:flex-row py-20">
+      <div class="hero-left">
+        <img src="img/Ibrahimmondal-removebg-preview.png" alt="user">
+      </div>
+      <div class="hero-right">
+        <p class="text-white text-3xl font-semibold">HELLO, MY NAME IS</p>
+         <p class="text-white max-w-[570px] py-4">I’m a Front End Web developer who is passionate about making error-free websites with 100% client satisfaction. I am strategic, goal-oriented, and always work with an end goal in mind . I pride myself on doing quality work and maintain excellent communication. Most of the time I work with WordPress but some technologies I enjoy working with include ReactJS, JavaScript</p>
+       <button class="py-2 px-6 bg-text-color block rounded-lg shadow-boxone hover:bg-primery-color transition ease-out duration-500 hover:text-text-color font-medium">About us</button>
+      </div>
+    </div>
+   </section>
+  <!-- about section end  -->
+  <!-- Service section start  -->
+   <section class="bg-primery-color" id="service">
+    <div class="max-w-[1170px] m-auto px-4 pb-20">
+      <p class="text-white text-5xl text-center py-12 font-bold">Our <span class="text-text-color font-semibold">service</span></p>
+      <div class="flex md:flex gap-7 flex-col md:flex-row">
+        <div class="rounded-xl bg-secondary-color p-9 text-center hover:border-2 border-2 border-[#1F242D;] hover:border-cyan-400 transition ease-out duration-500">
+          <i class="fa-brands fa-figma text-6xl text-white pb-3"></i>
+          <h1 class="text-white text-2xl font-bold">DESIGN SKILLS</h1>
+          <p class="text-white max-w-[570px] py-4">Proficient in Figma design, creating sleek user interfaces and intuitive user experiences with a strong eye for aesthetics and usability.</p>
+          <button class="py-2 px-6 bg-text-color rounded-lg shadow-boxone hover:bg-primery-color transition ease-out duration-500 hover:text-text-color font-medium text-center inline">About us</button>
+        </div>
+        <div class="rounded-xl bg-secondary-color p-9 text-center hover:border-2 border-2 border-[#1F242D;] hover:border-cyan-400 transition ease-out duration-500">
+          <i class="fa-brands fa-figma text-6xl text-white pb-3"></i>
+          <h1 class="text-white text-2xl font-bold">DESIGN SKILLS</h1>
+          <p class="text-white max-w-[570px] py-4">Proficient in Figma design, creating sleek user interfaces and intuitive user experiences with a strong eye for aesthetics and usability.</p>
+          <button class="py-2 px-6 bg-text-color inline rounded-lg shadow-boxone hover:bg-primery-color transition ease-out duration-500 hover:text-text-color font-medium">About us</button>
+        </div>
+        <div class="rounded-xl bg-secondary-color p-9 text-center hover:border-2 border-2 border-[#1F242D;] hover:border-cyan-400 transition ease-out duration-500">
+          <i class="fa-brands fa-figma text-6xl text-white pb-3"></i>
+          <h1 class="text-white text-2xl font-bold">DESIGN SKILLS</h1>
+          <p class="text-white max-w-[570px] py-4">Proficient in Figma design, creating sleek user interfaces and intuitive user experiences with a strong eye for aesthetics and usability.</p>
+          <button class="py-2 px-6 bg-text-color inline rounded-lg shadow-boxone hover:bg-primery-color transition ease-out duration-500 hover:text-text-color font-medium">About us</button>
+        </div>
+      </div>
+    </div>
+   </section>
+  <!-- Service section end  -->
+  <!-- Project section start  -->
+  <section class="bg-secondary-color pb-20" id="portfolio">
+    <div class="max-w-[1170px] m-auto px-4">
+      <p class="text-white text-5xl text-center py-12 font-bold">Latest <span class="text-text-color font-semibold">Project</span></p>
+      <div class="flex md:flex gap-7 flex-col md:flex-row">
+        <div class="rounded-xl bg-primery-color p-9 hover:border-2 border-2 border-[#1F242D;] hover:border-cyan-400 transition ease-out duration-500">
+         <img src="img/ibrahim-mondal.jpg" alt="project" class="rounded-2xl">
+          <h1 class="text-text-color text-2xl py-4">wordpress</h1>
+          <p class="text-white max-w-[570px]">WordPress Theme Development</p>
+          <h1 class="text-text-color text-[18px] font-light pt-4">CONSULTANCY project</h1>
+        </div>
+        <div class="rounded-xl bg-primery-color p-9 hover:border-2 border-2 border-[#1F242D;] hover:border-cyan-400 transition ease-out duration-500">
+          <img src="img/ibrahim-mondal.jpg" alt="project" class="rounded-2xl">
+           <h1 class="text-text-color text-2xl py-4">wordpress</h1>
+           <p class="text-white max-w-[570px]">WordPress Theme Development</p>
+           <h1 class="text-text-color text-[18px] font-light pt-4">CONSULTANCY project</h1>
+         </div>
+         <div class="rounded-xl bg-primery-color p-9 hover:border-2 border-2 border-[#1F242D;] hover:border-cyan-400 transition ease-out duration-500">
+          <img src="img/ibrahim-mondal.jpg" alt="project" class="rounded-2xl">
+           <h1 class="text-text-color text-2xl py-4">wordpress</h1>
+           <p class="text-white max-w-[570px]">WordPress Theme Development</p>
+           <h1 class="text-text-color text-[18px] font-light pt-4">CONSULTANCY project</h1>
+         </div>
+      </div>
+      
+    </div>
+   </section>
+  <!-- Project section end  -->
+  <!-- Testimonials section start  -->
+  <section class="bg-primery-color">
+    <div class="max-w-[1170px] m-auto px-4 pb-20">
+      <p class="text-white text-5xl text-center py-12 font-bold"><span class="text-text-color font-semibold">Testimonials</span></p>
+      <div class="flex md:flex gap-7 flex-col md:flex-row">
+        <div class="rounded-xl bg-secondary-color p-9">
+          <p class="text-white max-w-[570px] py-4 pb-16">Great experience, highly recommend him. Worked through all my questions with me and was very timely in his responsiveness.</p>
+          <img src="img/Clients-1.jpg" alt="" class="rounded-full">
+          <p class="text-text-color font-normal text-[18px] py-4">mbdevboston</p>
+          <p class="text-white font text-[18px] font-medium">Designer</p>
+        </div>
+        <div class="rounded-xl bg-secondary-color p-9">
+          <p class="text-white max-w-[570px] py-4 pb-16">Great experience, highly recommend him. Worked through all my questions with me and was very timely in his responsiveness.</p>
+          <img src="img/Clients-1.jpg" alt="" class="rounded-full">
+          <p class="text-text-color font-normal text-[18px] py-4">mbdevboston</p>
+          <p class="text-white font text-[18px] font-medium">Designer</p>
+        </div>
+        <div class="rounded-xl bg-secondary-color p-9 ">
+          <p class="text-white max-w-[570px] py-4 pb-16">Great experience, highly recommend him. Worked through all my questions with me and was very timely in his responsiveness.</p>
+          <img src="img/Clients-1.jpg" alt="" class="rounded-full">
+          <p class="text-text-color font-normal text-[18px] py-4">mbdevboston</p>
+          <p class="text-white font text-[18px] font-medium">Designer</p>
+        </div>
+      </div>
+    </div>
+   </section>
+  <!-- Testimonials section end  -->
+  <!-- footer section start  -->
+   <footer class="bg-secondary-color border-dotted">
+    <div class="max-w-[1170px] m-auto px-4 py-6 flex justify-between items-center">
+      <div class="footer-left">
+        <p class="text-[14px] text-white">© All Rights Reserved 2015 - 2023 | Ibrahim Mondal</p>
+      </div>
+      <div class="footer-right">
+        <i class="fa-solid fa-arrow-up text-black p-3 rounded-lg bg-text-color"></i>
+      </div>
+    </div>
+   </footer>
+  <!-- footer section end  -->
+</main> 
+  <script>
+  AOS.init(
+            {
+            duration: 1000,
+        }
+        );  
+  </script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- google font start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- google font end  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+         tailwind.config = {
+          theme: {
+            extend: {
+                fontFamily: {
+           poppins:["Poppins", 'sans-serif']
+            },
+            backgroundImage: {
+        'hero-pattern': "url('/img/image.png')",
+      },
+            colors:{
+        'text-color':'#385F96',
+        'p-color':'#4E4E4E',
+        'footer-color':'#385F96',
+          }  
+            },
+            
+          },
+        };
+    </script>
+</head>
+<body class="font-poppins">
+    <!-- hrader section start  -->
+     <header class="max-w-[1058px] m-auto px-4">
+        <div class="flex justify-between py-9 items-center">
+            <img src="img/wOrK.png" alt="logo" data-aos="fade-down">
+            <nav class="gap-5 md:flex hidden" data-aos="zoom-in">
+                <a href="#" class="text-text-color font-medium">Home</a>
+                <a href="#" class="text-text-color font-medium">About</a>
+                <a href="#" class="text-text-color font-medium">Services</a>
+                <a href="#" class="text-text-color font-medium">Contact</a>
+            </nav>
+            <button class="py-4 px-10 bg-text-color text-white rounded-[30px] hidden md:inline-block" data-aos="fade-left">Explore</button>
+            <div class="flex items-center gap-4 space-y-2 md:hidden">
+                <span class="text-xl text-text-color">Manu</span>
+                <div class="hamburger flex flex-col gap-1 ">
+                    <span class="inline-block h-[2px] w-4 bg-text-color"></span>
+                    <span class="inline-block h-[2px] w-4 bg-text-color"></span>
+                </div>
+            </div>
+        </div>
+     </header>
+    <!-- hrader section end -->
+    <main>
+         <!-- hero section start -->
+          <section>
+            <div class="max-w-[1058px] m-auto px-4 py-28 md:flex gap-40">
+                <div class="hero-left flex flex-col text-center md:text-left items-center md:items-start md:justify-center md:w-2/4" data-aos="fade-left">
+                    <h1 class="text-5xl text-text-color font-bold leading-snug">Creativity Is The Key Of Success</h1>
+                    <p class="py-8 text-p-color">Our mission is to provide quality English language instruction a variety of coursesp to international and local students in a professional and supportive atmosphere English teaching.</p>
+            <button class="py-4 px-10 bg-text-color text-white rounded-[30px]">Learn More</button>
+                </div>
+                <div class="hero-right md:w-2/4 flex-col-reverse" data-aos="fade-right">
+                    <img src="img/image-one.png" alt="" class="max-w-full">
+                </div>
+            </div>
+          </section>
+         <!-- hero section end -->
+         <!-- about section start -->
+         <section>
+            <div class="max-w-[1058px] m-auto px-4 py-28 md:flex gap-40">
+                <div class="hero-right md:w-2/4 flex-col-reverse" data-aos="fade-right">
+                    <img src="img/image-two.png" alt="" class="max-w-full">
+                </div>
+                <div class="hero-left flex flex-col text-center md:text-left items-center md:items-start md:justify-center md:w-2/4" data-aos="fade-left">
+                    <h1 class="text-3xl text-text-color font-bold leading-snug">Do You Know How Many Creative People Work Here ?</h1>
+                    <p class="py-8 text-p-color">Our mission is to provide quality English language instruction a variety of coursesp to international and local students in a professional and supportive atmosphere English teaching.</p>
+            <button class="py-4 px-10 bg-text-color text-white rounded-[30px]">Learn More</button>
+                </div> 
+            </div>
+          </section>
+         <!-- about section end -->
+         <!-- Project section start -->
+         <section class="bg-[url('img/rectangle.png')]">
+            <div class="max-w-[1058px] m-auto px-4 py-28 md:flex gap-40">
+                <div class="hero-left flex flex-col text-center md:text-left items-center md:items-start md:justify-center md:w-2/4" data-aos="fade-left">
+                    <h1 class="text-3xl py-3 text-text-color font-bold leading-snug">We Are Ready To Run Your New Project!</h1>
+            <button class="py-4 px-10 bg-text-color text-white rounded-[30px]">Learn More</button>
+                </div>
+                <div class="hero-right md:w-2/4 flex-col-reverse" data-aos="fade-right">
+                    <img src="img/image-footer.png" alt="" class="max-w-full">
+                </div>
+            </div>
+          </section>
+         <!-- Project section end -->
+         <!-- footer section start -->
+          <footer>
+            <div class="bg-footer-color text-center">
+                <p class="text-white py-4">Made with 💗 by Ibrahim Mondal</p>
+            </div>
+          </footer>
+         <!-- footer section end -->
+     </main>
+     <script>
+        AOS.init(
+            {
+            duration: 1000,
+        }
+        );
+      </script>
+</body>
+</html>
